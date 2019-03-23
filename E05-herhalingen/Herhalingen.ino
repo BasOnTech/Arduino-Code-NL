@@ -59,9 +59,9 @@ void loop() {
 void loop() {
   for (int i = 0; i <= 10; i++) {
     if (i % 2 == 0) {
-        Serial.println('even');
+        Serial.println("even");
     } else {
-        Serial.println('oneven');
+        Serial.println("oneven");
     }
   }
 }
@@ -85,7 +85,7 @@ void loop() {
 /* 
  * Type:        while loop
  * Controle:    acheraf
- * Print:       0 1 2 3 4 5 6 7 8 9    <--- 10 ontbreekt!
+ * Print:       0 1 2 3 4 5 6 7 8 9 10
  */             
 void loop() {
     int i = 0;
